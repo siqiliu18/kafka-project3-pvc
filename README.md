@@ -1,4 +1,4 @@
-# kafka-project3-pvc
+# Kafka Server - pvc
 
 ### Source: https://github.com/provectus/kafka-ui
 
@@ -7,4 +7,13 @@
 3. KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS should include brokers addresses that specified at KAFKA_ADVERTISED_LISTENERS.
 4. KAFKA_BROKER_ID needs to be unique.
 5. PLAINTEXT_HOST needs to map to the port section
-6. JMX_PORT ? 
+
+# Kafka Server - akhq 
+
+### Source: https://akhq.io/docs/
+
+1. source file akhq-1.yaml
+
+#
+# To launch a kafka local server: docker-compose -f YAML_FILE.yaml up
+# To shut down all containers: docker-compose -f YAML_FILE.yaml down (in a different terminal)
