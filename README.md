@@ -15,5 +15,5 @@
 1. source file akhq-1.yaml
 
 #
-# To launch a kafka local server: docker-compose -f YAML_FILE.yaml up
-# To shut down all containers: docker-compose -f YAML_FILE.yaml down (in a different terminal)
+## To launch a kafka local server: docker-compose -f YAML_FILE.yaml up
+## To shut down all containers: docker-compose -f YAML_FILE.yaml down (in a different terminal)
